@@ -5,17 +5,15 @@ id: home
 permalink: /
 ---
 
-# Welcome! 🌱
+# 방패맨 SIAN 의 기술 블로그
 
 <p style="padding: 3em 1em; background: #f5f7ff; border-radius: 4px;">
-  Take a look at <span style="font-weight: bold">[[Your first note]]</span> to get started on your exploration.
+  성장과 적응, 그리고 각종 IT 기술 정리 블로그 
 </p>
 
-This digital garden template is free, open-source, and [available on GitHub here](https://github.com/maximevaillancourt/digital-garden-jekyll-template).
+BackEnd개발자의 적응일기
 
-The easiest way to get started is to read this [step-by-step guide explaining how to set this up from scratch](https://maximevaillancourt.com/blog/setting-up-your-own-digital-garden-with-jekyll).
-
-<strong>Recently updated notes</strong>
+<strong>최근 문서</strong>
 
 <ul>
   {% assign recent_notes = site.notes | sort: "last_modified_at_timestamp" | reverse %}
